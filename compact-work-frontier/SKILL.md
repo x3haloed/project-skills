@@ -28,4 +28,6 @@ Retain and sharpen:
 
 Merge overlapping items, use the smallest statement that preserves decision value, and keep evidence pointers only where needed to prevent unsupported belief. Do not claim resolution merely to make the frontier smaller.
 
+When the frontier is persisted, update the existing file in place. Preserve the canonical section order—`Outcome`, `Goal invariants`, `Prediction errors`—and leave an empty section rather than removing the schema. Do not create an archive, history file, or replacement frontier during compaction.
+
 After compaction, verify that a fresh agent could use the outcome, repository, and frontier to choose a useful next move without inheriting the prior agent's narrative.

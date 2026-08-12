@@ -15,7 +15,9 @@ Use the repository as the authoritative implementation record. Maintain only thi
 - **Goal invariants:** Evidence-backed properties discovered to be constitutive of success.
 - **Prediction errors:** Unresolved cases where an expected result materially differed from observation.
 
-Keep this state in the task context. Create or update a repository file only when persistence across sessions is needed and the file location is appropriate to the repository. Do not invent frontier entries merely to fill the structure.
+For a fresh project, read [references/work-frontier-template.md](references/work-frontier-template.md) and copy it to a durable project-local location before adding frontier state. Prefer `<repo>/.codex/work-frontier.md` when project-local agent state belongs in the repository. Otherwise keep `work-frontier.md` immediately beside the repository or in the nearest established project-notes directory. Do not edit the bundled template, create competing frontier files, or hide the file in a distant global notes location.
+
+Keep transient state in the task context when persistence across sessions is unnecessary. When a persistent frontier already exists, update that file in place and preserve the template's section order. Leave a section empty rather than inventing entries. Do not copy implementation status, plans, task lists, attempt history, or facts already authoritative in code, tests, issues, or documentation into the frontier.
 
 ## Run one work loop
 

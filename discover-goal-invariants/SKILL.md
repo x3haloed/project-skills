@@ -1,6 +1,6 @@
 ---
 name: discover-goal-invariants
-description: Determine whether project evidence reveals a previously implicit, durable dimension of successful user or ecosystem outcomes, and capture it without freezing an implementation choice. Use after live behavior, user feedback, performance evidence, integration constraints, maintenance experience, or a resolved prediction error shows that some property may be constitutive of success even though it was absent from the original brief.
+description: Use after live behavior, user feedback, performance evidence, integration constraints, maintenance experience, or a resolved prediction error shows that some property may be constitutive of success even though it was absent from the original brief.
 ---
 
 # Discover Goal Invariants

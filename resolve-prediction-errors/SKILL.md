@@ -1,6 +1,6 @@
 ---
 name: resolve-prediction-errors
-description: Investigate and retain the useful residue of a material mismatch between expected and observed software behavior. Use when a test, measurement, runtime observation, integration response, implementation result, or attempted change contradicts Codex's working model and the discrepancy could affect future decisions. Do not trigger for ordinary command mistakes or already-understood failures with no decision value.
+description: Use when a test, measurement, runtime observation, integration response, implementation result, or attempted change contradicts Codex's working model and the discrepancy could affect future decisions. Do not trigger for ordinary command mistakes or already-understood failures with no decision value.
 ---
 
 # Resolve Prediction Errors

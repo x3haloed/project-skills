@@ -1,6 +1,6 @@
 ---
 name: reorient-from-outcomes
-description: Re-derive the next useful software move from the original outcome and current evidence instead of continuing by momentum. Use after several locally connected changes, at a natural milestone, before another substantial work chunk, when uncertainty about direction accumulates, when the current plan is mostly justified by prior work, or when local progress may have displaced the actual user outcome.
+description: Use after several locally connected changes, at a natural milestone, before another substantial work chunk, when uncertainty about direction accumulates, when the current plan is mostly justified by prior work, or when local progress may have displaced the actual user outcome.
 ---
 
 # Reorient From Outcomes

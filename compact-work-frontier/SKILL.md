@@ -1,6 +1,6 @@
 ---
 name: compact-work-frontier
-description: Compress the persistent decision context for a long-running software task while retaining learned outcome properties and unresolved disagreements with reality. Use when frontier state is large, repetitive, stale, contradictory, expensive to reread, or has reached a natural milestone. Also use when plans, implementation narration, or resolved issues have accumulated among goal invariants and prediction errors.
+description: Use when frontier state is large, repetitive, stale, contradictory, expensive to reread, or has reached a natural milestone. Also use when plans, implementation narration, or resolved issues have accumulated among goal invariants and prediction errors.
 ---
 
 # Compact Work Frontier

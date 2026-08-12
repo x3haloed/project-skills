@@ -22,7 +22,7 @@ Keep transient state in the task context when persistence across sessions is unn
 ## Run one work loop
 
 1. Reorient from the outcome, current goal invariants, unresolved prediction errors, and repository reality.
-2. Choose one useful work unit that advances the artifact, tests an important assumption, or reduces uncertainty blocking useful progress.
+2. Choose one useful work unit that advances the artifact, tests an important assumption, or reduces uncertainty blocking useful progress. Price uncertainty-reducing work by the total cost of obtaining decisive evidence, not merely the cost of changing code.
 3. Prefer work likely to remain valuable across multiple plausible architectures, including work that removes evidenced friction from future understanding, change, or verification.
 4. Act. Make the change or run the probe instead of extending the plan unnecessarily.
 5. Observe reality through the strongest practical evidence: live behavior, tests, measurements, compiler output, logs, or direct inspection.
@@ -30,6 +30,12 @@ Keep transient state in the task context when persistence across sessions is unn
 7. Choose again. Continue until the outcome is satisfied or a concrete external blocker is reached.
 
 Use plans to coordinate immediate work, but replace them freely when evidence changes the best direction. Do not substitute completion of a task list for satisfaction of the outcome.
+
+## Buy useful evidence cheaply
+
+Include all activation and observation costs when comparing experiments: implementation effort, setup demanded from the observer, time to first observation, cognitive load, fidelity on decision-relevant dimensions, confounds, reversibility, and the likelihood that the result will arrive and distinguish the alternatives. Do not call an experiment cheap merely because its code change is small while a human must configure, deploy, populate, navigate, or infer what to assess.
+
+When a consequential ambiguity requires human experience or judgment, invoke `$resolve-ambiguity-with-human-evidence`. Use experimental artifacts only to answer the ambiguity. Their validation does not make them finished-grade work: retain the lesson, remove disposable scaffolding, implement the chosen direction to project standards, and verify it in the real system before treating that part of the outcome as satisfied.
 
 ## Protect the ability to progress
 
@@ -42,6 +48,7 @@ Treat each design choice as a prediction about future work. If a prior choice ex
 ## Route exceptional conditions
 
 - Invoke `$resolve-prediction-errors` when observation materially contradicts expectation.
+- Invoke `$resolve-ambiguity-with-human-evidence` when a consequential choice requires bounded human judgment and ordinary review would impose avoidable friction.
 - Invoke `$discover-goal-invariants` when evidence may reveal a previously implicit dimension of success.
 - Invoke `$reorient-from-outcomes` when momentum, a milestone, growing uncertainty, or a substantial next chunk makes drift plausible.
 - Invoke `$compact-work-frontier` when frontier state becomes repetitive, stale, large, or milestone-bound.

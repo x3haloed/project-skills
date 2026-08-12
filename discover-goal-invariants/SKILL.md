@@ -22,10 +22,18 @@ Bad: `Use incremental rendering.`
 
 The bad example is an architectural hypothesis that may satisfy the invariant, not the invariant itself.
 
+Ongoing pliability can be a goal invariant when evidence shows that safe continued evolution is constitutive of the requested outcome. State the observable project property, not a generic virtue or preferred architecture.
+
+Good: `Routine policy changes must remain safely implementable without reconstructing behavior across multiple systems.`
+
+Bad: `Keep the code maintainable.`
+
+The good example constrains the future experience of changing the project. The bad example is too vague to test or guide a tradeoff.
+
 ## Record the learning
 
 Write the smallest durable statement that future work should optimize or preserve. Add a brief evidence pointer only when the claim would otherwise become unsupported or ambiguous.
 
-Avoid vague virtues such as “good UX,” requirements already explicit in the outcome, implementation constraints already captured by code or tests, and values inferred without contact with reality.
+Avoid vague virtues such as “good UX” or “maintainability,” requirements already explicit in the outcome, implementation constraints already captured by code or tests, and values inferred without contact with reality. Do not promote every instance of development friction into an invariant; first determine whether it reveals a recurring property required for success.
 
 Treat goal invariants as learned beliefs, not immutable laws. Merge duplicates, narrow overbroad claims, and revise or remove an invariant when later evidence contradicts it.

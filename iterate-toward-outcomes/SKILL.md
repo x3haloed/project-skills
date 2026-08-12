@@ -23,13 +23,21 @@ Keep transient state in the task context when persistence across sessions is unn
 
 1. Reorient from the outcome, current goal invariants, unresolved prediction errors, and repository reality.
 2. Choose one useful work unit that advances the artifact, tests an important assumption, or reduces uncertainty blocking useful progress.
-3. Prefer work likely to remain valuable across multiple plausible architectures.
+3. Prefer work likely to remain valuable across multiple plausible architectures, including work that removes evidenced friction from future understanding, change, or verification.
 4. Act. Make the change or run the probe instead of extending the plan unnecessarily.
 5. Observe reality through the strongest practical evidence: live behavior, tests, measurements, compiler output, logs, or direct inspection.
 6. Incorporate only decision-relevant learning into the frontier.
 7. Choose again. Continue until the outcome is satisfied or a concrete external blocker is reached.
 
 Use plans to coordinate immediate work, but replace them freely when evidence changes the best direction. Do not substitute completion of a task list for satisfaction of the outcome.
+
+## Protect the ability to progress
+
+Treat the agent's ability to make safe, informed progress as part of project reality. Unexpectedly expensive understanding, changes that require coordinating hidden or duplicated authorities, repeated rediscovery, and verification that cannot isolate affected behavior are evidence about the system—not merely agent inconvenience.
+
+When concrete friction materially impedes the outcome or is likely to recur, choose work that improves the project's pliability: make relevant behavior easier to locate, understand, change, test, and verify. Prefer removing the demonstrated source of friction over documenting a workaround. Do not use pliability as blanket permission for speculative cleanup, unrelated refactoring, or replacing a working design with a preferred style.
+
+Treat each design choice as a prediction about future work. If a prior choice expected to simplify progress instead makes consequential work harder, route the discrepancy through `$resolve-prediction-errors`. If sustained safe changeability proves constitutive of the outcome, route that learning through `$discover-goal-invariants` rather than assuming maintainability is automatically a goal invariant.
 
 ## Route exceptional conditions
 

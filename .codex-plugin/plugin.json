@@ -1,0 +1,6 @@
+{
+  "name": "project-skills",
+  "version": "0.1.0",
+  "description": "A standalone skill stack for advancing uncertain, long-running projects through evidence-driven iteration.",
+  "skills": "./skills/"
+}
